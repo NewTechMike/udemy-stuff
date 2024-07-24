@@ -1,25 +1,26 @@
 body {
   background-color: black;
 }
-/* {
-  text-align: center;
-}*/
 
 h1 {
   font-family: "Libre Baskerville", serif;
   color: white;
   text-align: center;
+  text-transform: uppercase;
 }
+
 p { 
   text-align: center;
 }
 
 img {
-  border: 50px solid, gold;
+  border: 5px solid white;
   width: 100%;
 }
 
 div {
   width: 50%;
   margin-left: 25%;
+  color: white;
+
 }
