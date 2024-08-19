@@ -23,28 +23,31 @@ footer {
   color: midnightblue;
 }
 
-.logo {
-  text-align: center;
-}
+
 
 .tile-image {
   height: 200px;
 }
 
 @media (max-width: 600px){
-  
+  .logo {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
 }
 
 .card {
-  display: inline;
+  width: 100%;
+  margin-bottom: 5px;
+  display: block;
+  text-align: justify;
 }
 
 img {
   float: left; 
-}
-
-card {
-  display: inline-block; 
 }
 
 .left {
