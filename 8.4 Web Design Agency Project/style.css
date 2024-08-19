@@ -6,6 +6,10 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+
+span {
+  color: midnightblue;
+}
 .main {
   flex: 1;
 }
@@ -23,28 +27,30 @@ footer {
   text-align: center;
 }
 
-.left-card {
-  float: left;
-  flex: 2;
-}
-
-.right-card {
-  float: right;
-  flex: 2;  
-}
-
-.card {
-  display: inline-block;
-}
-
 .tile-image {
   height: 200px;
 }
 
-
 @media (max-width: 600px){
-  div {
-    height: 200px;
-    width: 200px;
-  }
+  
+}
+
+.card {
+  display: inline;
+}
+
+img {
+  float: left; 
+}
+
+card {
+  display: inline-block; 
+}
+
+.left {
+  clear: left;
+}
+
+.right {
+  float: right;
 }
