@@ -10,6 +10,15 @@ body {
 span {
   color: midnightblue;
 }
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+  
 .main {
   flex: 1;
 }
@@ -23,10 +32,9 @@ footer {
   color: midnightblue;
 }
 
-
-
 .tile-image {
   height: 200px;
+  float: left;
 }
 
 @media (max-width: 600px){
@@ -39,21 +47,14 @@ footer {
   }
 }
 
-.card {
-  width: 100%;
-  margin-bottom: 5px;
-  display: block;
-  text-align: justify;
-}
 
 img {
   float: left; 
 }
 
-.left {
-  clear: left;
-}
-
-.right {
-  float: right;
+.card {
+  width: 45%;
+  margin-bottom: 5px;
+  display: inline;
+  text-align: justify;
 }
